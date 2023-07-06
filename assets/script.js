@@ -1,10 +1,21 @@
 // Assignment code here
-var number = "0123456789"
-var upperCase = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
-var lowerCase = "abcdefghijklmnopqrstuvwxyz"
-var specialCharacters = "!@#$%^&*()_+{}[]=?,.<>"
+function genteratePassword () {
+var number = '0123456789';
+var upperCase = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
+var lowerCase = 'abcdefghijklmnopqrstuvwxyz';
+var specialCharacters = '!@#$%^&*()_+{}[]=?,.<>';
+var numberResponse = '0123456789';
+var upperCaseResponse = 'FGHIJKLMNOPQRSTUVWXYZ'
+var lowerCaseResponse = 'bcdefghijklmnopqrstuvwxyz'
+var specialCharactersResponse = '!@#$%^&*()_+{}[]=?,.<>'
 
 
+
+
+number = window.prompt("Would you like to include numbers in your passowrd? Y / N");
+
+
+}
 // Get references to the #generate element
 var generateBtn = document.querySelector("#generate");
 
@@ -19,3 +30,4 @@ function writePassword() {
 
 // Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);
+}
