@@ -21,7 +21,7 @@ function generatePassword() {
     return "Bad input. Try again";
   }
 
-  const lowerCasePrompt = window.prompt("Would you like to include lower case letters in your passowrd? Y / N");
+  const lowerCasePrompt = window.prompt("Would you like to include lower case letters in your password? Y / N");
 // Below is the function to verify the input. You will see the same function with the respective const var.
   if (lowerCasePrompt != "Y" && lowerCasePrompt != "N") {
     alert("Answer must be a Y or N")
